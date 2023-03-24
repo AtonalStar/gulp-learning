@@ -11,8 +11,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cz-git": "^1.6.1",
     "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
     "gulp-load-plugins": "^2.0.8",
     "gulp-replace": "^1.1.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
   }
 }
